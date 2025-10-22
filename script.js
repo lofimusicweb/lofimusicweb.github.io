@@ -443,6 +443,29 @@ const albums = [
     ],
   },
   {
+    id: 8,
+    name: "171 (one-seven-one)",
+    year: 2009,
+    cover: "/LOFI008/171.jpg?height=300&width=300",
+    tracks: [
+      {
+        name: "A Single Thought",
+        duration: "0:00",
+        file: "/LOFI008/01 asinglethought.mp3",
+      },
+      {
+        name: "Good Morning",
+        duration: "0:00",
+        file: "/LOFI008/02 goodmorning.mp3",
+      },
+      {
+        name: "I Before E",
+        duration: "0:00",
+        file: "/LOFI008/03 ibeforee.mp3",
+      },
+    ],
+  },
+  {
     id: 9,
     name: "Low Brow Sound",
     year: 2012,
