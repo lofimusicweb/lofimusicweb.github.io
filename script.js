@@ -4,7 +4,7 @@ const albums = [
     id: 1,
     name: "The World In Bitesize Chunks #1",
     year: 2001,
-    cover: "/LOFI001/placeholder.svg?height=300&width=300",
+    cover: "/LOFI001/TWIBC cover.jpg?height=300&width=300",
     tracks: [
       {
         name: "From Here To Somewhere Else",
