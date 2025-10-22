@@ -399,6 +399,49 @@ const albums = [
       },
     ],
   },
+  {
+    id: 7,
+    name: "Dirty Little",
+    year: 2004,
+    cover: "/LOFI007/dirty little cover.jpg?height=300&width=300",
+    tracks: [
+      {
+        name: "Can I Be The One?",
+        duration: "0:00",
+        file: "/LOFI007/01 Can I Be The One_.mp3",
+      },
+      {
+        name: "Irn Bru 2006",
+        duration: "0:00",
+        file: "/LOFI007/02 Irn Bru 2006.mp3",
+      },
+      {
+        name: "Here Come The Free Radicals",
+        duration: "0:00",
+        file: "/LOFI007/03 Here Come The Free Radicals.mp3",
+      },
+      {
+        name: "Cheery Big Black Cloud Of Death",
+        duration: "0:00",
+        file: "/LOFI007/04 Cheery Big Black Cloud of Death.mp3",
+      },
+      {
+        name: "Armpit",
+        duration: "0:00",
+        file: "/LOFI007/05 Armpit.mp3",
+      },
+      {
+        name: "Delicately Balanced",
+        duration: "0:00",
+        file: "/LOFI007/06 Delicately Balanced.mp3",
+      },
+      {
+        name: "2, 3.. 4, 5!",
+        duration: "0:00",
+        file: "/LOFI007/07 2,3..4,5!.mp3",
+      },
+    ],
+  },
 ];
 
 // State
