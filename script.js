@@ -286,6 +286,119 @@ const albums = [
       { name: "Irn Bru", duration: "0:00", file: "/LOFI004/04 Irn Bru.mp3" },
     ],
   },
+  {
+    id: 5,
+    name: "Citizen Awake",
+    year: 2003,
+    cover: "/LOFI005/ca.jpg?height=300&width=300",
+    tracks: [
+      {
+        name: "A Bottle Of Red Wine In The Park",
+        duration: "0:00",
+        file: "/LOFI005/01 A Bottle Of Red Wine In The Park.mp3",
+      },
+      {
+        name: "April In Amsterdam",
+        duration: "0:00",
+        file: "/LOFI005/02 April In Amsterdam.mp3",
+      },
+      {
+        name: "Change From 3 Points Of View",
+        duration: "0:00",
+        file: "/LOFI005/03 Change From 3 Points Of View.mp3",
+      },
+      {
+        name: "Spot The Difference",
+        duration: "0:00",
+        file: "/LOFI005/04 Spot The Difference.mp3",
+      },
+      {
+        name: "Wintersong",
+        duration: "0:00",
+        file: "/LOFI005/05 Wintersong.mp3",
+      },
+      {
+        name: "Far Off Cry",
+        duration: "0:00",
+        file: "/LOFI005/06 Far Off Cry.mp3",
+      },
+      { name: "Snowfall", duration: "0:00", file: "/LOFI005/07 Snowfall.mp3" },
+      {
+        name: "Why I Ran In Fear Of My Life",
+        duration: "0:00",
+        file: "/LOFI005/08 Why I Ran In Fear Of My Life.mp3",
+      },
+      { name: "Tall Oak", duration: "0:00", file: "/LOFI005/09 Tall Oak.mp3" },
+      {
+        name: "It's A Beautiful World",
+        duration: "0:00",
+        file: "/LOFI005/10 It's A Beautiful World.mp3",
+      },
+    ],
+  },
+  {
+    id: 6,
+    name: "Montague's Lunchtime Speciale",
+    year: 2004,
+    cover: "/LOFI006/mls cover.jpg?height=300&width=300",
+    tracks: [
+      {
+        name: "Music Here Tonight",
+        duration: "0:00",
+        file: "/LOFI006/01 Music Here Tonight.mp3",
+      },
+      {
+        name: "Tin Hearts",
+        duration: "0:00",
+        file: "/LOFI006/02 Tin Hearts.mp3",
+      },
+      {
+        name: "Soup",
+        duration: "0:00",
+        file: "/LOFI006/03 Soup.mp3",
+      },
+      {
+        name: "My Funny Valentine",
+        duration: "0:00",
+        file: "/LOFI006/04 My Funny Valentine.mp3",
+      },
+      {
+        name: "The Distance",
+        duration: "0:00",
+        file: "/LOFI006/05 The Distance.mp3",
+      },
+      {
+        name: "A Breather",
+        duration: "0:00",
+        file: "/LOFI006/06 A Breather.mp3",
+      },
+      {
+        name: "Your Wide Eyes",
+        duration: "0:00",
+        file: "/LOFI006/07 Your Wide Eyes.mp3",
+      },
+      {
+        name: "Siren",
+        duration: "0:00",
+        file: "/LOFI006/08 Siren.mp3",
+      },
+      {
+        name: "Bite",
+        duration: "0:00",
+        file: "/LOFI006/09 Bite.mp3",
+      },
+      {
+        name: "A Shambles",
+        duration: "0:00",
+        file: "/LOFI006/10 A Shambles.mp3",
+      },
+      {
+        name: "You Know Why You're Here",
+        duration: "0:00",
+        file: "/LOFI006/11 You Know Why You're Here.mp3",
+      },
+    ],
+  },
 ];
 
 // State
