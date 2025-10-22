@@ -100,12 +100,12 @@ const albums = [
       {
         name: "11:30",
         duration: "0:13",
-        file: "/LOFI001/20 11:30",
+        file: "/LOFI001/20 11_30.mp3",
       },
       {
         name: "Nell' Ombra Dei Fantasmi",
         duration: "1:28",
-        file: "/LOFI001/21 Nell; Ombra Dei Fantasmi.mp3",
+        file: "/LOFI001/21 Nell' Ombra Dei Fantasmi.mp3",
       },
       {
         name: "Dead Go Dancing",
