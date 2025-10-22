@@ -2,23 +2,31 @@
 const albums = [
   {
     id: 1,
-    name: "Midnight Dreams",
-    year: 2023,
-    cover: "/placeholder.svg?height=300&width=300",
+    name: "The World In Bitesize Chunks #1",
+    year: 2001,
+    cover: "/LOFI001/placeholder.svg?height=300&width=300",
     tracks: [
       {
-        name: "Moonlight Serenade",
+        name: "From Here To Somewhere Else",
         duration: "3:24",
-        file: "/audio/track1.mp3",
+        file: "/LOFI001/01 From Here To Somewhere Else.mp3",
       },
-      { name: "City Lights", duration: "2:58", file: "/audio/track2.mp3" },
-      { name: "Rainy Evening", duration: "4:12", file: "/audio/track3.mp3" },
       {
-        name: "Coffee Shop Vibes",
-        duration: "3:45",
-        file: "/audio/track4.mp3",
+        name: "Jerry Vale",
+        duration: "2:58",
+        file: "/LOFI001/02 Jerry Vale.mp3",
       },
-      { name: "Stargazing", duration: "3:18", file: "/audio/track5.mp3" },
+      { name: "Someday", duration: "4:12", file: "/LOFI001/03 Someday.mp3" },
+      {
+        name: "Women And Their Makeup",
+        duration: "3:45",
+        file: "/LOFI001/04 Women And Their Makeup.mp3",
+      },
+      {
+        name: "The Effervescing Backwaters Of Dunsinane",
+        duration: "3:18",
+        file: "/LOFI001/05 The Effervescing Backwaters Of Dunsinane.mp3",
+      },
     ],
   },
   {
