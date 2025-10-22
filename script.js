@@ -402,7 +402,7 @@ const albums = [
   {
     id: 7,
     name: "Dirty Little",
-    year: 2004,
+    year: 2007,
     cover: "/LOFI007/dirty little cover.jpg?height=300&width=300",
     tracks: [
       {
@@ -439,6 +439,39 @@ const albums = [
         name: "2, 3.. 4, 5!",
         duration: "0:00",
         file: "/LOFI007/07 2,3..4,5!.mp3",
+      },
+    ],
+  },
+  {
+    id: 9,
+    name: "Low Brow Sound",
+    year: 2012,
+    cover: "/LOFI009/low brow sound cover.jpg?height=300&width=300",
+    tracks: [
+      {
+        name: "An Itch",
+        duration: "0:00",
+        file: "/LOFI009/01 An Itch.mp3",
+      },
+      {
+        name: "The Sun Is Too Bright",
+        duration: "0:00",
+        file: "/LOFI009/02 The Sun Is Too Bright.mp3",
+      },
+      {
+        name: "Home Run",
+        duration: "0:00",
+        file: "/LOFI009/03 Home Run.mp3",
+      },
+      {
+        name: "Is That Not Beautiful Enough?",
+        duration: "0:00",
+        file: "/LOFI009/04 Is That Not Beautiful Enough_.mp3",
+      },
+      {
+        name: "Why Don't You Keep Your Trap Shut",
+        duration: "0:00",
+        file: "/LOFI009/05 Why Don't You Keep Your Trap Shut.mp3",
       },
     ],
   },
