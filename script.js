@@ -8,23 +8,23 @@ const albums = [
     tracks: [
       {
         name: "From Here To Somewhere Else",
-        duration: "3:24",
+        duration: "1:45",
         file: "/LOFI001/01 From Here To Somewhere Else.mp3",
       },
       {
         name: "Jerry Vale",
-        duration: "2:58",
+        duration: "0:54",
         file: "/LOFI001/02 Jerry Vale.mp3",
       },
-      { name: "Someday", duration: "4:12", file: "/LOFI001/03 Someday.mp3" },
+      { name: "Someday", duration: "1:41", file: "/LOFI001/03 Someday.mp3" },
       {
         name: "Women And Their Makeup",
-        duration: "3:45",
+        duration: "2:13",
         file: "/LOFI001/04 Women And Their Makeup.mp3",
       },
       {
         name: "The Effervescing Backwaters Of Dunsinane",
-        duration: "3:18",
+        duration: "0:41",
         file: "/LOFI001/05 The Effervescing Backwaters Of Dunsinane.mp3",
       },
     ],
@@ -268,6 +268,7 @@ function playTrack(trackIndex) {
 
   // Show mini player
   miniPlayer.style.display = "flex";
+  audioPlayer.src = track.file;
 
   // Update active track styling
   document.querySelectorAll(".track-item").forEach((item, index) => {
@@ -281,7 +282,8 @@ function playTrack(trackIndex) {
   // Simulate playing (in real app, call audioPlayer.play())
   isPlaying = true;
   updatePlayButton();
-  simulateProgress(track.duration);
+  //simulateProgress(track.duration);
+  audioPlayer.play();
 }
 
 // Simulate audio progress (since we don't have real MP3 files)
