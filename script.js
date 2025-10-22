@@ -488,7 +488,8 @@ function playPreviousTrack() {
 // Toggle play/pause
 function togglePlay() {
   isPlaying = !isPlaying;
-  updatePlayButton();
+  //updatePlayButton();
+  isPlaying ? audioPlayer.play() : audioPlayer.pause();
 
   // In real implementation: isPlaying ? audioPlayer.play() : audioPlayer.pause();
 }
